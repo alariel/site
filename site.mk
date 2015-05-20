@@ -4,6 +4,8 @@ GLUON_SITE_PACKAGES := \
     gluon-announced \
     gluon-neighbour-info \
     gluon-autoupdater \
+    gluon-setup-mode \
+    gluon-config-mode-core \
     gluon-config-mode-autoupdater \
     gluon-config-mode-hostname \
     gluon-config-mode-mesh-vpn \
@@ -16,13 +18,14 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-autoupdater \
     gluon-luci-portconfig \
     gluon-luci-private-wifi \
+    gluon-luci-node-role \
     gluon-next-node \
     gluon-mesh-vpn-fastd \
     gluon-radvd \
     gluon-status-page \
     iwinfo \
     iptables \
-    haveged 
+    haveged
 
 DEFAULT_GLUON_RELEASE := 2014.4-stable-2.1
 # Allow overriding the release number from the command line
